@@ -1,0 +1,25 @@
+
+.flex{
+    max-width: 900px;
+    padding: 10px;
+    border: 2px solid #000;
+    display: flex;
+    list-style: none;
+    /*justify-content: space-evenly;*/
+    flex-wrap: wrap;
+}
+
+.item{
+    background-color: rgb(67, 28, 241);
+    height: 50%;
+    min-width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 5px;
+}
+
+.row {
+    flex-direction: column;
+}
